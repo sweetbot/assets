@@ -1,0 +1,6 @@
+| Step In The Release Cycle | Blockchain Network Type | Binary Debug/Release Type | How To Deploy Binary |
+|---------------------------|-------------------------|---------------------------|----------------------|
+| Eng development           | Ethereum Ropsten        | Debug                     | Xcode                |
+| Early QA                  | Ethereum Ropsten        | Debug                     | CI                   |
+| Late QA                   | Ethereum Mainnet        | Debug                     | CI                   |
+| Final QA                  | Ethereum Mainnet        | Release                   | TestFlight           |
